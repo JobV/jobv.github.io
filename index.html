@@ -2,41 +2,28 @@
 layout: default
 ---
 
-
-<div class="job"></div>
-<div class="icons">
-  <a href="https://www.twitter.com/Jobvo"><i class="fa fa-twitter"></i></a>
-  <a href="https://www.facebook.com/job.vandervoort.5"><i class="fa fa-facebook"></i></a>
-  <a href="https://github.com/JobV"><i class="fa fa-github"></i></a>
-  <a href="mailto:jobvandervoort+web@gmail.com"><i class="fa fa-envelope-o"></i></a>
+<div class="header">
+  <div class="job">
+    <p>
+      Hi, I’m Job
+      <br>I like design, great products and tech.
+      <br>Find <a href="">stuff I write</a>, things I created and talks I gave.
+      <br>
+      <br>@Jobvo
+    </p>
+    <div class="icons" style="float: right;">
+      <a href="https://www.twitter.com/Jobvo"><i class="fa fa-twitter"></i></a>
+      <a href="mailto:jobvandervoort+web@gmail.com"><i class="fa fa-envelope-o"></i></a>
+    </div>
+  </div>
 </div>
 
-<div class="content">
-  <h2>THINGS I BUILT</h2>
 
-  <div class="project">
-    <h6>Pushmeetup</h6>
-    <p>Pushmeetup is an iOS app.
-      <a href="http://www.pushmeetup.com">pushmeetup.com</a>
-    </p>
+<div class="posts">
+  {% for post in site.posts %}
+  <h2>{{ post.title }}</h2>
+  <div class="post-content">
+    {{ post.content }}
   </div>
-
-  <div class="project">
-    <h6>Better BGG Search</h6>
-    <p>I like boardgames. Boardgamegeek is a great resource, but its site is very
-    mobile unfriendly and searching is not easy on a phone. It is slow because
-    the BGG API is slow and it runs on a sleepy Heroku instance. Heavy caching
-    is involved to relieve the pain a bit.
-    <a href="http://www.curapp.com">curapp.com</a></p>
-  </div>
-
-  <div class="project">
-    <h6>Domici.ly</h6>
-    <p>
-      SaaS for home-owner associations. Abandoned, but was at one point used
-      by several hundred people.
-      <a href="https://github.com/JobV/Domici.ly">GitHub</a>
-    </p>
-  </div>
-
+  {% endfor %}
 </div>
