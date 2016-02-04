@@ -2,6 +2,7 @@ pages:
   stage: deploy
   image: ruby:2.1
   script:
+  - gem install bundler
   - gem install jekyll
   - gem install redcarpet
   - jekyll build -d public
