@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400);
 
 $orange: #FFAE00;
 $orange2: #E26011;
@@ -10,7 +10,7 @@ $orange2: #E26011;
 
 // Our variables
 $base-font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-$base-font-size:   26px;
+$base-font-size:   22px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -63,13 +63,13 @@ $width-of-things: 600px;
 
 .header {
   background: $header-bg;
-  height: 228px;
+  height: 160px;
 
   .job {
     width: $width-of-things;
     padding-top: 24px;
     margin: 0 auto;
-    color: $cool-color;
+    // color: $cool-color;
     font-size: 23px;
 
     p {
@@ -79,6 +79,9 @@ $width-of-things: 600px;
     a {
       color: $cool-color;
       text-decoration: underline;
+      padding-right: 17px;
+      transition: all 0.1s;
+
       &:hover {
         color: $orange;
       }
@@ -92,8 +95,23 @@ $width-of-things: 600px;
   max-width: $width-of-things;
 
   h2 {
-    font-size: 20px;
-    font-style: italic;
+    font-size: 30px;
+    font-weight: 400;
     margin: 0;
+    color: $cool-color;
+  }
+
+  h3 {
+    font-size: 25px;
+    margin: 0;
+    font-weight: 400;
+    margin-top: 35px;
+    color: $text-color;
+  }
+
+  blockquote {
+    color: $text-color;
+    margin: 50px 0;
+    font-size: $base-font-size *1.2;
   }
 }
