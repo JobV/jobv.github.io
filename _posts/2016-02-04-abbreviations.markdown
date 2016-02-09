@@ -12,6 +12,8 @@ If you really insist on using abbreviations, use
 [TextExpander](https://smilesoftware.com/textexpander) to have them expand
 automatically.
 
+<!-- more -->
+
 Using abbreviations makes it harder to understand what you're talking about.
 Especially for people whose first language is not English, using abbreviations
 can add a second layer of abstraction, possible confusion.
