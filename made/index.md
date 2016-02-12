@@ -3,6 +3,8 @@ layout: list
 title: Lists of Things
 ---
 
+# Lists
+
 - [Me](#me)
 - [Products](#products)
 - [Developer Tools](#developer-tools)

@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Casts
+title: Contact Job
 ---
 
 Contact me at **jobvandervoort at gmail**.

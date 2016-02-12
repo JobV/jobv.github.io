@@ -127,13 +127,15 @@ $width-of-things: 600px;
   }
 }
 
+h1.page-title {
+  font-size: 43pt;
+  margin: 25pt 0;
+  color: darken($background-color, 13);
+}
+
 .centered-list {
   max-width: 500px;
-  margin: 50pt auto;
-
-  h1 {
-
-  }
+  margin: 0pt auto;
 
   h4 {
     font-weight: bold;

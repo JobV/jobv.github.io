@@ -3,8 +3,6 @@ layout: list
 title: Talks I gave
 ---
 
-# Talks I gave
-
 ## **On Running an Open Company**
 
 - _Upcoming_ Continuous Life Cycle Conference, London

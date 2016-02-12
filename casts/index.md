@@ -1,8 +1,4 @@
 ---
 layout: list
-title: Casts
+title: Pod / Webcasts
 ---
-
-# Pod / Webcasts
-
-- 
