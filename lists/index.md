@@ -21,6 +21,7 @@ title: Lists of Things
 
 ## Products
 
+- [My Favorite Apps](/favorite-apps)
 - [Gift ideas](/gifts)
 - [Todo Apps](/todo-apps)
 - [GitLab](https://about.gitlab.com)

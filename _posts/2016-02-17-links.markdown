@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "DRY and Link"
+date: 2016-02-18
+---
+
+DRY: Don't Repeat Yourself.*
+
+Whenever you collaborate on digital media,
+make sure to link to all relevant things. Never assume
+everyone knows where to find things.
+
+This also prevents unnecessary duplication of media,
+promoting working DRY.
+
+<!-- more -->
+
+If you're sharing a wall of text,
+it's a good idea to link important bits on top
+or on the bottom, rather than inline.
+
+\* *Although I don't encourage the usage of Abbreviations,
+DRY is a concept known among programmers and has a nice
+ring to it. Programmers often say "Make sure your code is DRY"*
