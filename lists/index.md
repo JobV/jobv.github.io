@@ -7,6 +7,8 @@ title: Lists of Things
 - [Products](#products)
 - [Developer Tools](#developer-tools)
 
+---
+
 ## Me
 
 - [Talks I gave](/talks)
@@ -15,11 +17,15 @@ title: Lists of Things
 - [Webcasts and Podcasts I was in](/casts)
 - [Online tutorials I gave](/vid-tuts)
 
+---
+
 ## Products
 
 - [Gift ideas](/gifts)
 - [Todo Apps](/todo-apps)
-- [GitLab](https://about.gitlab.com) This is what I work on every day. I'm very proud of it.
+- [GitLab](https://about.gitlab.com)
+
+---
 
 ## Developer Tools
 

@@ -130,7 +130,8 @@ $width-of-things: 600px;
 h1.page-title {
   font-size: 43pt;
   margin: 25pt 0;
-  color: darken($background-color, 13);
+  font-weight: 400;
+  color: darken($background-color, 10);
 }
 
 .centered-list {
@@ -148,6 +149,11 @@ h1.page-title {
   }
   li {
     list-style: none;
+  }
+
+  hr {
+    margin: 30pt 0;
+    border: 1px solid darken($background-color, 3);
   }
 }
 
