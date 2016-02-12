@@ -7,7 +7,7 @@ layout: default
     <p>
       Hi, I’m Job
       <br>I like design, great products and tech.
-      <br>I occassionally write things below.
+      <br>I occassionally write things below. See also my <a href="/lists">lists</a>
     </p>
     <div class="icons" style="float: left;">
       <a href="https://www.twitter.com/Jobvo"><i class="fa fa-twitter"></i></a>
@@ -19,9 +19,13 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-  <h2>{{ post.title }}</h2>
+  <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+  <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
   <div class="post-content">
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    <a href="{{ post.url | prepend: site.baseurl }}" class="read-more-link">Read more..</a>
   </div>
   {% endfor %}
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Writing Better: Abbreviations"
+title:  "Communicating Better: Abbreviations"
 date:   2016-02-04
 ---
 

@@ -94,7 +94,7 @@ $width-of-things: 600px;
   margin-top: 30px;
   max-width: $width-of-things;
 
-  h2 {
+  h2, h2 a {
     font-size: 30px;
     font-weight: 400;
     margin: 0;
@@ -114,6 +114,14 @@ $width-of-things: 600px;
     margin: 50px 0;
     font-size: $base-font-size *1.2;
   }
+
+  .read-more-link {
+    color: $cool-color;
+  }
+
+  .post-meta {
+    color: darken($cool-color, 10);
+  }
 }
 
 .centered-list {
@@ -128,5 +136,20 @@ $width-of-things: 600px;
     font-weight: bold;
     margin: 0;
     color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.small-top-nav {
+  background: darken($background-color, 10);
+  font-size: $base-font-size * 0.8;
+  padding: 5px 0;
+
+  a {
+    padding-right: 15px;
+    color: lighten($background-color, 20);
+
+    &:first-child {
+      padding-left: 15px;
+    }
   }
 }

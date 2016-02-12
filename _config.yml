@@ -12,3 +12,5 @@ github_username:  JobV
 markdown: kramdown
 gems:
   - jekyll-haml
+
+excerpt_separator: "<!-- more -->"
