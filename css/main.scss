@@ -89,16 +89,19 @@ $width-of-things: 600px;
   }
 }
 
-.posts {
+.posts, .post {
   margin: 0 auto;
   margin-top: 30px;
   max-width: $width-of-things;
 
-  h2, h2 a {
-    font-size: 30px;
+  h1, h2, h2 a {
+    color: $cool-color;
     font-weight: 400;
     margin: 0;
-    color: $cool-color;
+  }
+
+  h2, h2 a {
+    font-size: 30px;
   }
 
   h3 {
