@@ -13,3 +13,7 @@ title: Talks I gave
 
 - Feb 2016, Faber Ventures, Lisbon (Masterclass)
 - Jun 2014, MODX conference
+
+## **On GitLab**
+
+- Dec 2015, University of Utrecht
