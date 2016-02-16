@@ -6,7 +6,7 @@ title: Talks I gave
 ## **On Running an Open Company**
 
 - _May 2016, Continuous Life Cycle Conference, London_
-- Feb 2016, Product Tank Lisbon
+- Feb 2016, Product Tank Lisbon, [Slides](https://www.slideshare.net/secret/KLOzqTZ323RTsP)
 - Oct 2015, OSCON Amsterdam
 
 ## **On Git**
